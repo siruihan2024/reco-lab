@@ -1,0 +1,11 @@
+INFO:     Started server process [2142719]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30004 (Press CTRL+C to quit)
+[INFO] Loading Whisper model: small
+[INFO] Device: cpu, Compute Type: int8
+[INFO] Whisper model loaded successfully!
+INFO:     127.0.0.1:55504 - "POST /v1/audio/transcriptions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45010 - "POST /v1/audio/transcriptions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42038 - "POST /v1/audio/transcriptions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46740 - "POST /v1/audio/transcriptions HTTP/1.1" 200 OK
